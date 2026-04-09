@@ -420,7 +420,7 @@ function getVals(){
 }
 
 function fmt(p){
-  if(p<=0) return 'NO DATA';
+  if(p<=0) return 'NO HAY DATOS';
   const v=1/p*100;
   return v>=10000?'>10k':v>=1000?Math.round(v/100)*100+'~':Math.round(v)+'';
 }
